@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               I am a self motivated Programmer, self taught developer 😎 and developed some cool projects...🤷‍♂️
               <br />
-              <br />I have a great fundation 🧑‍💻 in languages like
+              <br />I have a great foundation 🧑‍💻 in languages like
               <i>
                 <b className="purple"> Java, Javascript, Python and React. </b>
               </i>
@@ -29,7 +29,7 @@ function Home2() {
               <br />
               I am interested in the fields of &nbsp;
               <i>
-                <b className="purple">web Tech Products and applications </b> and
+                <b className="purple">Web Tech Products and Applications </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Artificial Intelligence  and Machine Learning 🤖
