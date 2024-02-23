@@ -35,8 +35,8 @@ function Projects() {
               isBlog={false}
               title="E-Commerce Website"
               description="used to shop items , able to select the items and add them to the cart . Able to filter based upon categories and it was completely developed by using MERN Stack with a payment method too by using RazorPay"
-              ghLink="https://github.com/kethesainikhil/E-CommerceWebsite"
-              demoLink="https://kethesainikhilecommerce.vercel.app/"
+              ghLink="https://github.com/kethesainikhil/eccomerceFrontend/"
+              demoLink="https://eccomerce-frontend-zeta.vercel.app/"
             />
           </Col>
 
