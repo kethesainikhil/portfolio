@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
-import todoapp from "../../Assets/Projects/todo-app.png";
-import portfolio from "../../Assets/Projects/portfolio.png"
+import qubicgen from "../../Assets/Projects/qubicgen.png"
+import beakforneedy from "../../Assets/Projects/beakforneedy.png"
 
 
 function Projects() {
@@ -21,11 +21,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todoapp}
+              imgPath={beakforneedy}
               isBlog={false}
-              title="TODo App"
-              description="todo-app used to make a list of tasks they want to do and also mark them completed and keep a track on them , if those task is completed they can delete and add new task , able to edit the task "
-              ghLink="https://github.com/kethesainikhil/react_todo"
+              title="BeakForNeedy App"
+              description="BeakForNeedy app connects NGO's / Social welfare centers to the common people to help who are in needy"
+              ghLink="https://github.com/kethesainikhil/BakeForNeedyFrontend"
+              demoLink="https://bake-for-needy-frontend-ir9t.vercel.app/"
             />
           </Col>
 
@@ -42,11 +43,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={portfolio}
+              imgPath={qubicgen}
               isBlog={false}
-              title="Personal Portfolio"
-              description="personal portfolio website using ReactJs and it is used to showcase my skills as it was deployed in the internet and it is open sourced so that any one can use "
-              ghLink="https://github.com/kethesainikhil/portfolio"
+              title="QUBIC Gen"
+              description="Been a part of the website development part which included developing responsive Design for end users"
+              ghLink="https://github.com/pmdnawaz1/qubic-gen"
+              demoLink="https://www.qubicgen.com/"
             />
           </Col>
 
